@@ -20,8 +20,15 @@ class App extends Component {
 
   renderLoginButton(){
     //si elusuario está logueado
+    if (this.state.user) {
 
+    } else {
     //Si no lo está
+    
+
+    }
+
+    
   }
   render() {
     return (
