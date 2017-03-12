@@ -3,6 +3,13 @@ import firebase from 'firebase';
 import './App.css';
 
 class App extends Component {
+
+  constructor (){
+    super();
+    this.state = {
+      user: null
+    };
+  }
   handleAuth() {
     const provider = new firebase.auth.GoogleAuthProvider();
 
